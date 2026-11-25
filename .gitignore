@@ -1,0 +1,57 @@
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rcheck/
+renv/library/
+renv/local/
+renv/staging/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Raw sequencing & large bioinformatics files
+data/
+outputs/
+results/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.bcf
+*.tbi
+*.idx
+*.dict
+*.fa
+*.fna
+*.fasta
+*.gff
+*.gtf
+*.bed.gz
+*.rdata
+*.RData
+*.rds
+*.pdf

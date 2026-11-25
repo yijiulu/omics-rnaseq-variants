@@ -1,0 +1,26 @@
+name: omics-pipelines
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - bwa>=0.7.17
+  - gatk4>=4.5
+  - samtools>=1.19
+  - bcftools>=1.19
+  - htslib>=1.19
+  - snpeff>=5.2
+  - r-base>=4.3
+  - r-ggplot2
+  - r-ggrepel
+  - r-gplots
+  - r-rcolorbrewer
+  - r-venndiagram
+  - r-stringr
+  - bioconductor-deseq2
+  - bioconductor-fgsea
+  - bioconductor-clusterprofiler
+  - bioconductor-enrichplot
+  - bioconductor-annotationdbi
+  - bioconductor-org.hs.eg.db
+  - bioconductor-org.mm.eg.db
